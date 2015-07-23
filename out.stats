@@ -1,19 +1,17 @@
 code size summary per package:
 
-base:                    866239
-blaze_65nTUFk7V8VDwtIWzCKe1I:276
-blaze_9iB06wdXQNNKoCNPYicgNF:137292
-bytes_7xzRCqmYKEUD9kT8JNNjd6:7889
+base:                    892171
+bytes_7xzRCqmYKEUD9kT8JNNjd6:13217
 conta_5w3UY4chXx62LVUOUrXeRm:208457
 ghc-prim:                52685
 ghcjs_6fO2sBDbxgl1lxlAeHzYMO:2828
-ghcjs_HXVFfu8XQIWJ1W77s2SHGo:91587
+ghcjs_HXVFfu8XQIWJ1W77s2SHGo:91379
 ghcjs_HwzX8eXAwveCUOoAWSdVDg:9294
 integer-gmp:             43952
-main:                    1324885
+main:                    1322901
 mtl_JY14bYun6zF5fM4QvBys8Y:7809
-parse_CridxNwahOzHHM9SrtUfBJ:627779
-text_EUgTRFf4B9F3jYYcZNn3Au:162735
+parse_CridxNwahOzHHM9SrtUfBJ:631369
+text_EUgTRFf4B9F3jYYcZNn3Au:149923
 trans_KzbnBSIEqPI2eU1Inn4mzm:27400
 
 
@@ -30,9 +28,9 @@ base
     Data.Foldable:                      21370
     Data.Functor:                       269
     Data.Functor.Identity:              1242
-    Data.Maybe:                         2903
+    Data.Maybe:                         3631
     Data.Monoid:                        8139
-    Data.OldList:                       19533
+    Data.OldList:                       17805
     Data.Traversable:                   5114
     Data.Tuple:                         841
     Data.Typeable:                      889
@@ -48,7 +46,7 @@ base
     GHC.Err:                            220
     GHC.Exception:                      7048
     GHC.Foreign:                        12371
-    GHC.ForeignPtr:                     1507
+    GHC.ForeignPtr:                     1944
     GHC.IO:                             3894
     GHC.IO.Buffer:                      1284
     GHC.IO.BufferedIO:                  1074
@@ -59,11 +57,11 @@ base
     GHC.IO.Encoding.Types:              1034
     GHC.IO.Encoding.UTF8:               61443
     GHC.IO.Exception:                   23675
-    GHC.IO.FD:                          54143
-    GHC.IO.Handle:                      22785
-    GHC.IO.Handle.FD:                   14366
-    GHC.IO.Handle.Internals:            73804
-    GHC.IO.Handle.Text:                 16409
+    GHC.IO.FD:                          56211
+    GHC.IO.Handle:                      29444
+    GHC.IO.Handle.FD:                   16215
+    GHC.IO.Handle.Internals:            76389
+    GHC.IO.Handle.Text:                 29896
     GHC.IO.Handle.Types:                4912
     GHC.IO.IOMode:                      80
     GHC.Int:                            802
@@ -79,7 +77,7 @@ base
     GHC.Storable:                       1084
     GHC.TopHandler:                     10506
     GHC.Unicode:                        3761
-    GHC.Word:                           17867
+    GHC.Word:                           17714
     Numeric:                            5104
     System.Exit:                        331
     System.IO:                          608
@@ -90,16 +88,9 @@ base
     Text.Read:                          3136
     Text.Read.Lex:                      78147
 
-blaze_65nTUFk7V8VDwtIWzCKe1I
-    Text.Blaze.Html.Renderer.Text:      276
-
-blaze_9iB06wdXQNNKoCNPYicgNF
-    Text.Blaze.Internal:                1313
-    Text.Blaze.Renderer.Text:           135979
-
 bytes_7xzRCqmYKEUD9kT8JNNjd6
-    Data.ByteString:                    6825
-    Data.ByteString.Internal:           1064
+    Data.ByteString:                    6089
+    Data.ByteString.Internal:           7128
 
 conta_5w3UY4chXx62LVUOUrXeRm
     Data.Map.Base:                      113310
@@ -126,7 +117,7 @@ ghcjs_HXVFfu8XQIWJ1W77s2SHGo
     GHCJS.DOM.HTMLElement:              902
     GHCJS.DOM.HTMLTextAreaElement:      899
     GHCJS.DOM.Node:                     4532
-    GHCJS.DOM.Types:                    70988
+    GHCJS.DOM.Types:                    70780
 
 ghcjs_HwzX8eXAwveCUOoAWSdVDg
     GHCJS.Prim:                         8518
@@ -137,25 +128,25 @@ integer-gmp
     GHC.Integer.Type:                   43445
 
 main
-    Main:                               18960
-    Modal.Code:                         205723
-    Modal.Combat:                       242350
+    Main:                               17524
+    Modal.Code:                         205735
+    Modal.Combat:                       240791
     Modal.Competition:                  72082
     Modal.CompilerBase:                 344352
     Modal.Def:                          97028
     Modal.Display:                      16757
-    Modal.Formulas:                     184759
-    Modal.Parser:                       38883
+    Modal.Formulas:                     185229
+    Modal.Parser:                       38891
     Modal.Programming:                  6775
     Modal.Statement:                    87771
-    Modal.Utilities:                    9445
+    Modal.Utilities:                    9966
 
 mtl_JY14bYun6zF5fM4QvBys8Y
     Control.Monad.Error.Class:          4522
     Control.Monad.State.Class:          3287
 
 parse_CridxNwahOzHHM9SrtUfBJ
-    Text.Parsec.Char:                   24120
+    Text.Parsec.Char:                   27710
     Text.Parsec.Combinator:             60861
     Text.Parsec.Error:                  32027
     Text.Parsec.Expr:                   74902
@@ -171,12 +162,11 @@ text_EUgTRFf4B9F3jYYcZNn3Au
     Data.Text.Encoding.Error:           6752
     Data.Text.IO:                       38042
     Data.Text.Internal:                 1254
-    Data.Text.Internal.Builder:         11838
     Data.Text.Internal.Fusion.Size:     1079
     Data.Text.Internal.Fusion.Types:    2618
     Data.Text.Internal.IO:              26990
     Data.Text.Internal.Lazy:            843
-    Data.Text.Lazy:                     3916
+    Data.Text.Lazy:                     2942
     Data.Text.Unsafe:                   953
 
 trans_KzbnBSIEqPI2eU1Inn4mzm
@@ -187,5 +177,5 @@ trans_KzbnBSIEqPI2eU1Inn4mzm
 
 
 
-packed metadata: 603469
+packed metadata: 599644
 
